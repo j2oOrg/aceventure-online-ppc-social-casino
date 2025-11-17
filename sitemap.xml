@@ -11,6 +11,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://aceventure.online/leaderboard/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aceventure.online/daily-bonus/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://aceventure.online/auth/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
