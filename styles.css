@@ -699,6 +699,33 @@ blockquote {
   color: var(--text);
 }
 
+.featured-game {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center;
+}
+
+.featured-game__content h2 {
+  margin-bottom: 0.6rem;
+}
+
+.game-embed {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(2, 0, 18, 0.5);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.game-frame {
+  width: 100%;
+  height: min(70vh, 520px);
+  border: none;
+  display: block;
+  background: #000;
+}
+
 .phase-grid {
   margin-top: 1.5rem;
   display: grid;
