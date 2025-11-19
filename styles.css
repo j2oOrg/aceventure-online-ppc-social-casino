@@ -70,6 +70,22 @@ body::after {
   opacity: 0.45;
 }
 
+.compliance-banner {
+  background: linear-gradient(120deg, #ff5f6d, #ffc371);
+  color: #1b060f;
+  text-align: center;
+  padding: 0.65rem 1rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.compliance-banner strong {
+  margin-right: 0.35rem;
+}
+
 img, svg {
   display: block;
   max-width: 100%;
